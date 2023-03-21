@@ -29,7 +29,7 @@
         resultElement.innerText = `${amount.toFixed(2)} PLN = ${result.toFixed(2)} ${currency}`;
     }
 
-    const onFornSubmit = (event) => {
+    const onFormSubmit = (event) => {
             event.preventDefault();
 
             const amountElement = document.querySelector(".js-amount");
@@ -46,7 +46,7 @@
         const init = () => {
             const formElement = document.querySelector(".js-form");
 
-            formElement.addEventListener("submit", onFornSubmit);
+            formElement.addEventListener("submit", onFormSubmit);
         };
 
         init();

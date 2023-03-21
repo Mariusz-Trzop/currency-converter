@@ -9,20 +9,22 @@
     padding: 5px;
 }
 
-.form__field--select {
+.form__currency {
     border: 0px;
-    background-color: #5099da;
+    background-color: #2a4d6c;
     border-radius: 5px;
     color: #f5f5f5;
+    padding: 5px;
+    cursor: pointer;
 }
 
-.form__field {
+.form__amount {
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 5px;
     width: 100%;
     max-width: 300px;
-    text-align: center;
+    text-align: left;
 }
 
 .form__button {
@@ -30,9 +32,10 @@
     width: 100%;
     border: none;
     border-radius: 5px;
-    background-color: #5099da;
+    background-color: #2a4d6c;
     padding: 5px;
     color: #f5f5f5;
+    cursor: pointer;
 }
 
 .form__result {
@@ -52,7 +55,7 @@
 
 .form__legend {
     border-radius: 5px;
-    background-color: #5099da;
+    background-color: #2a4d6c;
     padding: 5px;
     color: #f5f5f5;
 }

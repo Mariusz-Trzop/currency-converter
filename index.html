@@ -17,7 +17,7 @@
     <link href="style/style.css" rel="stylesheet">
     <link href="style/container.css" rel="stylesheet">
     <link href="style/form.css" rel="stylesheet">
-    <script defer src="js/sctipt.js"></script>
+    <script defer src="js/script.js"></script>
 </head>
 
 <body class="body">
@@ -29,13 +29,13 @@
                     <li class="form__listItem">
                         <label>
                             <span class="form__selectName">
-                                Wpisz kwotę (PLN):</span><input class="js-amount form__field" type="number" required
-                                step="0.01"></label>
+                                Wpisz kwotę (PLN):</span><input class="js-amount form__amount" type="number" required
+                                step="0.01" min="0"></label>
                     </li>
                     <li class="form__listItem">
                         <label>
                             <span class="form__selectName">
-                                Przelicz na:</span><select class="js-currency form__field--select" name="to">
+                                Przelicz na:</span><select class="js-currency form__currency" name="to">
                                 <option value="CZK">Korona czeska</option>
                                 <option value="EUR" selected>EURO</option>
                                 <option value="GBP">Funt brytyjski</option>
